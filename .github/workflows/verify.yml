@@ -18,6 +18,7 @@ jobs:
       - run: npm run check:catalog
       - run: npm run check:model -- models/fastener-example-v1/web/assembly.glb models/fastener-example-v1/catalog.json fastener-example-v1
       - run: npm run check:model -- models/elops-study-v1/web/assembly.glb models/elops-study-v1/catalog.json elops-study-v1
+      - run: npm run check:model -- models/elops-study-v2/web/assembly.glb models/elops-study-v2/catalog.json elops-study-v2
       - run: node scripts/check-city-example.mjs
       - run: npm run check:types
       - run: npm run build

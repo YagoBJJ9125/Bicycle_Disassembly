@@ -8,7 +8,7 @@
 | Aspetto | `app/globals.css` | Stili dell'applicazione |
 | Contratto | `lib/catalog.ts` | Schema Zod, tipi, deduplicazione e grafo di smontaggio |
 | Demo | `lib/demo.ts` | Geometrie illustrative e schede didattiche |
-| Esempi incorporati | `lib/built-in.ts`, `data/elops-study-v1.json`, `public/models/` | Catalogo iniziale e bici Blender senza upload |
+| Esempi incorporati | `lib/built-in.ts`, `data/elops-study-v2.json`, `public/models/` | Catalogo iniziale e bici Blender senza upload |
 | Avvio Windows | `Avvia-Officina.cmd`, `scripts/start-local.mjs` | Dipendenze, migrazioni, server e browser |
 | Dati persistenti | `lib/storage.ts`, `db/schema.ts` | Accesso D1, catalogo e asset R2 |
 | Catalogo API | `app/api/catalog/route.ts` | Lettura e importazione atomica metadati |

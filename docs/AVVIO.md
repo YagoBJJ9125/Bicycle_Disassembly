@@ -21,7 +21,7 @@ Su un nuovo PC occorre prima installare Node.js 22.13 o successivo e scaricare/c
 5. Per vedere un interno, filtra **Ruota anteriore** e cerca **Sfera**; per vedere una maglia cerca **Piastrina**.
 6. In **Libreria** puoi passare alla precedente demo Classica o aggiungere una tua bici.
 
-L'esempio rappresenta l'intera bicicletta con 704 elementi separati e geometrie originali Blender. Si basa sull'allestimento pubblico della Elops Speed 500, ma **non è una replica OEM verificata fino a ogni vite**. Numero di raggi/maglie, cuscinetti e minuteria sono illustrativi. Ruota libera, cartuccia movimento, interni delle leve ed elettronica restano gruppi non completamente aperti. I limiti compaiono nelle schede e sotto il banco; leggi `models/elops-study-v1/MODEL.md`.
+L'esempio rappresenta l'intera bicicletta con 718 elementi separati e geometrie originali Blender. La revisione 2 migliora catena, corona e pignone, fissaggi dei cavi al telaio, pinze, mozzi e sterzo. Per vedere le aggiunte cerca «Clip guaina», «Registro tensione» o «Distanziale» nell'elenco. Si basa sull'allestimento pubblico della Elops Speed 500, ma **non è una replica OEM verificata fino a ogni vite**. Percorso cavi, clip, distanziale, numero di raggi/maglie, cuscinetti e minuteria sono illustrativi. Ruota libera, cartuccia movimento, interni delle leve ed elettronica restano gruppi non completamente aperti. I limiti compaiono nelle schede e sotto il banco; leggi `models/elops-study-v2/MODEL.md`.
 
 ## Avvio manuale, anche da altri sistemi
 

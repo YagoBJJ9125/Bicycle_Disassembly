@@ -1,6 +1,6 @@
 # Libreria dei sorgenti 3D
 
-Sono presenti `elops-study-v1`, bici intera di riferimento con 704 elementi incorporata nel banco, e `fastener-example-v1`, esempio originale di tre pezzi per collaudare il flusso. Entrambi hanno sorgente Blender modificabile. Non sono ancora presenti distinte complete verificate di biciclette reali. Organizzare le nuove strutture così:
+La bici attiva nel banco è `elops-study-v2`, riferimento con 718 elementi, catena/dentatura e fissaggi migliorati; conserva sorgente Blender, report, vincoli geometrici e render ravvicinati. `elops-study-v1` resta la base originale archiviata con 704 elementi. È presente anche `fastener-example-v1`, esempio originale di tre pezzi per collaudare il flusso. Tutti hanno sorgente Blender modificabile. Non sono ancora presenti distinte complete verificate di biciclette reali. Organizzare le nuove strutture così:
 
 ```text
 models/<structure-id>/

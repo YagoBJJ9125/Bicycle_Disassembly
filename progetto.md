@@ -79,5 +79,12 @@ Gli endpoint condivisi si basano sull’accesso owner-private del Site. Prima di
 5. Aggiungere riordino/animazione della sequenza e istruzioni di rimontaggio con coppie ricavate dai manuali.
 6. Collegare un servizio IA sul server per riconoscimento/ricerca con limite di spesa e approvazione dei risultati prima dell’importazione. Non acquistare crediti né configurare account implicitamente.
 
+## Modelli dettagliati e portabilità (2 ottobre 2026)
+La qualità della demo è insufficiente per riprodurre fedelmente parti reali. La direzione scelta è conservare originali modificabili Blender, eventualmente prodotti da CAD parametrico, ed esportare copie GLB per il browser. Aumentare i poligoni delle primitive non ricostruisce particolari assenti. Il limite upload attuale resta 25 MB e non sono stati aggiunti decoder di compressione o caricamento progressivo.
+
+`docs/BLENDER_WORKFLOW.md` definisce unità, nomi, collection, budget e verifica. `tools/blender/export_officina.py` predispone l'esportazione separata dei pezzi; Blender non era installato sul PC, quindi non è ancora collaudato nell'applicazione. Nessun modello reale `.blend` è stato creato. `scripts/check-model.mjs` controlla un GLB rispetto al dossier prima del caricamento.
+
+Per qualsiasi altra IA sono disponibili `AGENTS.md`, `docs/AI_HANDOFF.md` e `docs/ARCHITECTURE.md`. Lo sviluppo locale richiede Node/npm, senza plugin Codex o account Cloudflare: `npm ci`, `npm run db:init`, `npm run dev`. `docs/PORTABILITA.md` distingue il sorgente dai dati online. `npm run backup:source` crea ZIP e bundle Git dai commit; `.github/workflows/verify.yml` verifica il codice senza distribuire. Il collegamento a GitHub richiede un repository confermato e l'accesso per scriverlo.
+
 ## Verifiche
 `node scripts/check-catalog.mjs` verifica demo, dipendenze, rifiuto dei duplicati e comportamento con standard mancanti. `node node_modules/typescript/bin/tsc --noEmit` controlla i tipi. La build usa il workflow Sites; schema D1 tramite Drizzle. Prima della consegna verificare la distribuzione fino allo stato succeeded; non dichiarare pubblicato sulla sola base della creazione del Site.

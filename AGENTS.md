@@ -2,6 +2,8 @@
 
 Prima di lavorare, leggere `progetto.md`, `README.md`, `lib/catalog.ts` e il catalogo aggiornato. La richiesta originale è una piattaforma italiana per imparare a restaurare biciclette, con esplosi fino a viti, sfere e piccoli elementi, descrizione e processo di ottenimento con misure utensili.
 
+Queste istruzioni valgono per qualsiasi IA o sviluppatore, senza dipendere da Codex. Per orientarsi leggere anche `docs/AI_HANDOFF.md` e `docs/ARCHITECTURE.md`. Per geometrie dettagliate seguire `docs/BLENDER_WORKFLOW.md`: conservare il sorgente modificabile e un oggetto nominato per ogni pezzo; non aumentare i poligoni della demo per dichiararla fedele.
+
 - Prima di generare geometrie, cercare se strutture o sottogruppi documentati sono già presenti. La marca e la forma esterna non bastano per confermare identità meccanica.
 - La demo è didattica: non riutilizzarla come struttura verificata di una bici reale. Non inventare modello, anno, quantità di sfere, utensili o coppie di serraggio.
 - Distinguere `verified`, `indicative`, `unknown`, dichiarare i limiti in `coverage` e attribuire le fonti precisamente. La completezza totale è un obiettivo da dimostrare per ciascuna bici, non una proprietà garantita della demo.

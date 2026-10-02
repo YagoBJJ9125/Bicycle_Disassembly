@@ -1,5 +1,5 @@
 import { env } from 'cloudflare:workers';
-import { demoBundle } from './demo';
+import { builtInBundle as demoBundle } from './built-in';
 import { bundleSchema, signature, type Bundle, type Structure, type Bike } from './catalog';
 export function database(){const db=(env as unknown as {DB?:D1Database}).DB;if(!db)throw new Error('Archivio non disponibile. Riprova più tardi.');return db;}
 export function assets(){const bucket=(env as unknown as {BUCKET?:R2Bucket}).BUCKET;if(!bucket)throw new Error('Archivio file non disponibile. Riprova più tardi.');return bucket;}

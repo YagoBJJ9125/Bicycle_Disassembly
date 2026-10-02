@@ -1,0 +1,3532 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "sourceBlend": "assembly.blend",
+  "structureId": "elops-study-v1",
+  "units": "meters",
+  "glbBytes": 3432596,
+  "meshCount": 704,
+  "totalTrianglesBeforeExport": 163292,
+  "parts": [
+    {
+      "meshName": "frame",
+      "verticesBeforeGltfSplits": 576,
+      "triangles": 1104
+    },
+    {
+      "meshName": "fork",
+      "verticesBeforeGltfSplits": 512,
+      "triangles": 976
+    },
+    {
+      "meshName": "head-topcap",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-cover",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-upper-cup",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-lower-cup",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-crown-race",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-compression-ring",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "head-top-bolt",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "head-star",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 380
+    },
+    {
+      "meshName": "head-0-bearing",
+      "verticesBeforeGltfSplits": 1824,
+      "triangles": 3584
+    },
+    {
+      "meshName": "head-1-bearing",
+      "verticesBeforeGltfSplits": 1824,
+      "triangles": 3584
+    },
+    {
+      "meshName": "stem",
+      "verticesBeforeGltfSplits": 248,
+      "triangles": 488
+    },
+    {
+      "meshName": "bar",
+      "verticesBeforeGltfSplits": 296,
+      "triangles": 576
+    },
+    {
+      "meshName": "stem-side-bolt-0",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "stem-side-bolt-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "stem-face-bolt-0",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "stem-face-bolt-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "stem-face-bolt-2",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "stem-face-bolt-3",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "grip--1",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "bar-end--1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "grip-1",
+      "verticesBeforeGltfSplits": 256,
+      "triangles": 512
+    },
+    {
+      "meshName": "bar-end-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "seatpost",
+      "verticesBeforeGltfSplits": 48,
+      "triangles": 92
+    },
+    {
+      "meshName": "seat-clamp",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "seat-clamp-bolt",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "saddle",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 376
+    },
+    {
+      "meshName": "saddle-rail--0.021",
+      "verticesBeforeGltfSplits": 48,
+      "triangles": 92
+    },
+    {
+      "meshName": "saddle-rail-0.021",
+      "verticesBeforeGltfSplits": 48,
+      "triangles": 92
+    },
+    {
+      "meshName": "saddle-nut",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "front-tire",
+      "verticesBeforeGltfSplits": 4096,
+      "triangles": 8192
+    },
+    {
+      "meshName": "front-tube",
+      "verticesBeforeGltfSplits": 2304,
+      "triangles": 4608
+    },
+    {
+      "meshName": "front-rim",
+      "verticesBeforeGltfSplits": 2560,
+      "triangles": 5120
+    },
+    {
+      "meshName": "front-rim-tape",
+      "verticesBeforeGltfSplits": 768,
+      "triangles": 1536
+    },
+    {
+      "meshName": "front-valve",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "front-valve-cap",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "front-hub",
+      "verticesBeforeGltfSplits": 1024,
+      "triangles": 2048
+    },
+    {
+      "meshName": "front-axle",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "front-nut--1",
+      "verticesBeforeGltfSplits": 144,
+      "triangles": 288
+    },
+    {
+      "meshName": "front-washer--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-locknut--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-cone--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-seal--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-ball--1-0",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-1",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-2",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-3",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-4",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-5",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-6",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-7",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball--1-8",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-nut-1",
+      "verticesBeforeGltfSplits": 144,
+      "triangles": 288
+    },
+    {
+      "meshName": "front-washer-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-locknut-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-cone-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-seal-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-ball-1-0",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-1",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-2",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-3",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-4",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-5",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-6",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-7",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-ball-1-8",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "front-spoke-0",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-0",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-1",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-1",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-2",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-2",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-3",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-3",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-4",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-4",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-5",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-5",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-6",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-6",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-7",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-7",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-8",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-8",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-9",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-9",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-10",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-10",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-11",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-11",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-12",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-12",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-13",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-13",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-14",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-14",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-15",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-15",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-16",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-16",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-17",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-17",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-18",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-18",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-19",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-19",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-20",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-20",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-21",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-21",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-22",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-22",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-23",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-23",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-24",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-24",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-25",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-25",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-26",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-26",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-27",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-27",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-28",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-28",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-29",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-29",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-30",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-30",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-spoke-31",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "front-nipple-31",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-tire",
+      "verticesBeforeGltfSplits": 4096,
+      "triangles": 8192
+    },
+    {
+      "meshName": "rear-tube",
+      "verticesBeforeGltfSplits": 2304,
+      "triangles": 4608
+    },
+    {
+      "meshName": "rear-rim",
+      "verticesBeforeGltfSplits": 2560,
+      "triangles": 5120
+    },
+    {
+      "meshName": "rear-rim-tape",
+      "verticesBeforeGltfSplits": 768,
+      "triangles": 1536
+    },
+    {
+      "meshName": "rear-valve",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "rear-valve-cap",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "rear-hub",
+      "verticesBeforeGltfSplits": 1024,
+      "triangles": 2048
+    },
+    {
+      "meshName": "rear-axle",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "rear-nut--1",
+      "verticesBeforeGltfSplits": 144,
+      "triangles": 288
+    },
+    {
+      "meshName": "rear-washer--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-locknut--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-cone--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-seal--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-ball--1-0",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-1",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-2",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-3",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-4",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-5",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-6",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-7",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball--1-8",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-nut-1",
+      "verticesBeforeGltfSplits": 144,
+      "triangles": 288
+    },
+    {
+      "meshName": "rear-washer-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-locknut-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-cone-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-seal-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-ball-1-0",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-1",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-2",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-3",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-4",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-5",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-6",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-7",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-ball-1-8",
+      "verticesBeforeGltfSplits": 114,
+      "triangles": 224
+    },
+    {
+      "meshName": "rear-spoke-0",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-0",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-1",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-1",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-2",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-2",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-3",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-3",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-4",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-4",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-5",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-5",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-6",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-6",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-7",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-7",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-8",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-8",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-9",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-9",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-10",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-10",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-11",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-11",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-12",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-12",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-13",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-13",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-14",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-14",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-15",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-15",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-16",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-16",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-17",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-17",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-18",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-18",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-19",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-19",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-20",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-20",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-21",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-21",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-22",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-22",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-23",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-23",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-24",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-24",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-25",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-25",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-26",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-26",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-27",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-27",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-28",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-28",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-29",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-29",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-30",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-30",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-spoke-31",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "rear-nipple-31",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "bb-cartridge",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 376
+    },
+    {
+      "meshName": "bb-adapter",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "crank-left",
+      "verticesBeforeGltfSplits": 352,
+      "triangles": 696
+    },
+    {
+      "meshName": "crank-bolt-left",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-body-left",
+      "verticesBeforeGltfSplits": 384,
+      "triangles": 752
+    },
+    {
+      "meshName": "pedal-axle-left",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-cap-left",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-bearing-left--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "pedal-bearing-left-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "crank-right",
+      "verticesBeforeGltfSplits": 352,
+      "triangles": 696
+    },
+    {
+      "meshName": "crank-bolt-right",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-body-right",
+      "verticesBeforeGltfSplits": 384,
+      "triangles": 752
+    },
+    {
+      "meshName": "pedal-axle-right",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-cap-right",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "pedal-bearing-right--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "pedal-bearing-right-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "chainring",
+      "verticesBeforeGltfSplits": 944,
+      "triangles": 1868
+    },
+    {
+      "meshName": "chainring-fixing-0",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "chainring-fixing-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "chainring-fixing-2",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "chainring-fixing-3",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "chainring-fixing-4",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "freewheel",
+      "verticesBeforeGltfSplits": 480,
+      "triangles": 960
+    },
+    {
+      "meshName": "chain-pin-0",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-0",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-0--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-0-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-1",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-1--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-1-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-2",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-2",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-2--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-2-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-3",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-3",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-3--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-3-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-4",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-4",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-4--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-4-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-5",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-5",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-5--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-5-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-6",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-6",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-6--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-6-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-7",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-7",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-7--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-7-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-8",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-8",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-8--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-8-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-9",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-9",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-9--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-9-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-10",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-10",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-10--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-10-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-11",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-11",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-11--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-11-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-12",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-12",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-12--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-12-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-13",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-13",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-13--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-13-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-14",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-14",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-14--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-14-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-15",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-15",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-15--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-15-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-16",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-16",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-16--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-16-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-17",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-17",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-17--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-17-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-18",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-18",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-18--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-18-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-19",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-19",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-19--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-19-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-20",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-20",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-20--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-20-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-21",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-21",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-21--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-21-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-22",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-22",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-22--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-22-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-23",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-23",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-23--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-23-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-24",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-24",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-24--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-24-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-25",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-25",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-25--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-25-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-26",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-26",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-26--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-26-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-27",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-27",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-27--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-27-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-28",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-28",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-28--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-28-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-29",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-29",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-29--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-29-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-30",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-30",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-30--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-30-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-31",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-31",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-31--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-31-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-32",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-32",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-32--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-32-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-33",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-33",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-33--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-33-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-34",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-34",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-34--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-34-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-35",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-35",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-35--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-35-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-36",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-36",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-36--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-36-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-37",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-37",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-37--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-37-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-38",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-38",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-38--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-38-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-39",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-39",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-39--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-39-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-40",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-40",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-40--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-40-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-41",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-41",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-41--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-41-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-42",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-42",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-42--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-42-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-43",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-43",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-43--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-43-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-44",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-44",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-44--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-44-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-45",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-45",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-45--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-45-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-46",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-46",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-46--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-46-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-47",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-47",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-47--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-47-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-48",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-48",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-48--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-48-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-49",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-49",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-49--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-49-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-50",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-50",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-50--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-50-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-51",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-51",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-51--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-51-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-52",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-52",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-52--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-52-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-53",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-53",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-53--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-53-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-54",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-54",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-54--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-54-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-55",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-55",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-55--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-55-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-56",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-56",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-56--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-56-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-57",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-57",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-57--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-57-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-58",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-58",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-58--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-58-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-59",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-59",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-59--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-59-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-60",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-60",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-60--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-60-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-61",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-61",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-61--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-61-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-62",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-62",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-62--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-62-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-63",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-63",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-63--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-63-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-64",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-64",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-64--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-64-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-65",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-65",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-65--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-65-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-66",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-66",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-66--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-66-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-67",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-67",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-67--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-67-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-68",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-68",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-68--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-68-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-69",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-69",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-69--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-69-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-70",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-70",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-70--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-70-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-71",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-71",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-71--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-71-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-72",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-72",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-72--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-72-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-73",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-73",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-73--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-73-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-74",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-74",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-74--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-74-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-75",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-75",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-75--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-75-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-76",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-76",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-76--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-76-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-77",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-77",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-77--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-77-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-78",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-78",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-78--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-78-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-79",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-79",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-79--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-79-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-80",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-80",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-80--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-80-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-81",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-81",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-81--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-81-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-82",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-82",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-82--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-82-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-83",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-83",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-83--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-83-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-84",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-84",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-84--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-84-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-85",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-85",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-85--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-85-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-86",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-86",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-86--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-86-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-87",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-87",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-87--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-87-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-88",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-88",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-88--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-88-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-89",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-89",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-89--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-89-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-90",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-90",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-90--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-90-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-91",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-91",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-91--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-91-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-92",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-92",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-92--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-92-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-93",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-93",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-93--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-93-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-94",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-94",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-94--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-94-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-95",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-95",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-95--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-95-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-96",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-96",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-96--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-96-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-97",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-97",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-97--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-97-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-98",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-98",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-98--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-98-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-pin-99",
+      "verticesBeforeGltfSplits": 24,
+      "triangles": 44
+    },
+    {
+      "meshName": "chain-roller-99",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 128
+    },
+    {
+      "meshName": "chain-plate-99--1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-plate-99-1",
+      "verticesBeforeGltfSplits": 104,
+      "triangles": 204
+    },
+    {
+      "meshName": "chain-master",
+      "verticesBeforeGltfSplits": 8,
+      "triangles": 12
+    },
+    {
+      "meshName": "front-brake-arm--1",
+      "verticesBeforeGltfSplits": 200,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-pad-holder--1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "front-pad--1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "brake-pad-nut-front--1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-pad-screw-front--1",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "front-pad-washer--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-brake-arm-1",
+      "verticesBeforeGltfSplits": 200,
+      "triangles": 384
+    },
+    {
+      "meshName": "front-pad-holder-1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "front-pad-1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "brake-pad-nut-front-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-pad-screw-front-1",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "front-pad-washer-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "brake-pivot-front",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-fixing-front",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 192
+    },
+    {
+      "meshName": "brake-spring-front",
+      "verticesBeforeGltfSplits": 296,
+      "triangles": 576
+    },
+    {
+      "meshName": "brake-cable-bolt-front",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-housing-front",
+      "verticesBeforeGltfSplits": 296,
+      "triangles": 576
+    },
+    {
+      "meshName": "brake-cable-front",
+      "verticesBeforeGltfSplits": 392,
+      "triangles": 768
+    },
+    {
+      "meshName": "brake-lever-front",
+      "verticesBeforeGltfSplits": 392,
+      "triangles": 768
+    },
+    {
+      "meshName": "brake-lever-bolt-front",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-ferrule-front",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "brake-endcap-front",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "rear-brake-arm--1",
+      "verticesBeforeGltfSplits": 200,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-pad-holder--1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "rear-pad--1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "brake-pad-nut-rear--1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-pad-screw-rear--1",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "rear-pad-washer--1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-brake-arm-1",
+      "verticesBeforeGltfSplits": 200,
+      "triangles": 384
+    },
+    {
+      "meshName": "rear-pad-holder-1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "rear-pad-1",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "brake-pad-nut-rear-1",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-pad-screw-rear-1",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "rear-pad-washer-1",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "brake-pivot-rear",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-fixing-rear",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 192
+    },
+    {
+      "meshName": "brake-spring-rear",
+      "verticesBeforeGltfSplits": 296,
+      "triangles": 576
+    },
+    {
+      "meshName": "brake-cable-bolt-rear",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-housing-rear",
+      "verticesBeforeGltfSplits": 392,
+      "triangles": 768
+    },
+    {
+      "meshName": "brake-cable-rear",
+      "verticesBeforeGltfSplits": 488,
+      "triangles": 960
+    },
+    {
+      "meshName": "brake-lever-rear",
+      "verticesBeforeGltfSplits": 392,
+      "triangles": 768
+    },
+    {
+      "meshName": "brake-lever-bolt-rear",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    },
+    {
+      "meshName": "brake-ferrule-rear",
+      "verticesBeforeGltfSplits": 192,
+      "triangles": 384
+    },
+    {
+      "meshName": "brake-endcap-rear",
+      "verticesBeforeGltfSplits": 32,
+      "triangles": 60
+    },
+    {
+      "meshName": "front-light",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "rear-light",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "front-reflector",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "rear-reflector",
+      "verticesBeforeGltfSplits": 96,
+      "triangles": 188
+    },
+    {
+      "meshName": "bell",
+      "verticesBeforeGltfSplits": 64,
+      "triangles": 124
+    }
+  ],
+  "mechanicalVerification": "Non certificata da questo script; confrontare con le fonti."
+}

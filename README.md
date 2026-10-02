@@ -2,6 +2,10 @@
 
 Una piattaforma italiana per studiare una bici prima di smontarla. Leggi `progetto.md` per obiettivo, stato reale, contratto dei dati e protocollo IA. Qualsiasi IA o sviluppatore può lavorare sui file: iniziare da `AGENTS.md` e [passaggio di consegne](docs/AI_HANDOFF.md).
 
+## Avvio semplice su Windows
+
+Apri la cartella del progetto e fai doppio clic su **Avvia-Officina.cmd**. Il browser apre http://127.0.0.1:5173/ con la bici di esempio già caricata. Tieni aperta la finestra dell'avvio; `Ctrl+C` ferma il programma. Sul primo avvio in un nuovo PC serve Node.js 22.13 o successivo e Internet per installare le dipendenze. Blender non serve per usare il banco. [Guida e prova guidata](docs/AVVIO.md).
+
 ## Utilizzo
 1. Apri **Banco 3D**: trascina per ruotare, scorri o usa il gesto di zoom. Il cursore **Esploso** separa i componenti. Scegli un pezzo nel modello o nell’elenco, poi **Isola pezzo**.
 2. Leggi **Descrizione** e **Come ottenerlo**: ruolo, procedura, dipendenze, strumenti e misure con attendibilità.
@@ -9,10 +13,12 @@ Una piattaforma italiana per studiare una bici prima di smontarla. Leggi `proget
 4. **Aggiungi una bici** salva foto e note nell’archivio e scarica un dossier Markdown per l’IA. Passalo a una conversazione collegata al progetto insieme alle foto quando il sito privato non è accessibile all’IA.
 5. L’IA ricerca il modello e gli standard, consulta il catalogo esistente e prepara un dossier JSON. **Controlla e importa** carica quel dossier e un eventuale GLB. Le bici possono condividere una struttura esistente.
 
-La demo ha 656 elementi. È un atlante schematico parziale, con quantità illustrative; non rappresenta una bici commerciale. La ruota libera resta un gruppo, alcuni interni e minuterie non sono ricostruiti. Il riconoscimento fotografico automatico e la generazione CAD automatica non sono collegati. Le procedure della demo sono generali, non istruzioni verificate su una tua bici.
+Sono disponibili due bici: **Elops Speed 500 · esempio 3D**, ricostruita in Blender con 704 elementi selezionabili, e la precedente **Classica**, demo procedurale con 656 elementi. L'esempio Elops mostra l'intera bicicletta e si basa su specifiche pubbliche, ma geometria, quantità e interni non documentati sono illustrativi: non è una distinta OEM completa. Ruota libera, cartuccia movimento, interni delle leve ed elettronica restano gruppi. [Fonti e limiti dell'esempio](models/elops-study-v1/MODEL.md).
+
+Il riconoscimento fotografico automatico e la generazione CAD automatica non sono collegati. Le procedure sono generali dove indicato, non istruzioni verificate sulla tua bici.
 
 ## Eseguire il progetto
-Stack: React 19, Vinext/Vite, Three.js, componenti Radix/Shadcn, D1/SQLite, R2, Zod e Drizzle. Richiede Node.js 22.13 o superiore nella famiglia 22, npm e Git. Nessuna chiave IA o autenticazione Cloudflare è necessaria per lo sviluppo locale.
+Stack: React 19, Vinext/Vite, Three.js, componenti Radix/Shadcn, D1/SQLite, R2, Zod e Drizzle. Richiede Node.js 22.13 o successivo, npm e Git. Nessuna chiave IA o autenticazione Cloudflare è necessaria per lo sviluppo locale.
 
 ```powershell
 npm ci
@@ -25,6 +31,7 @@ Se il computer usa un proxy aziendale, configura npm con il proxy autorizzato pr
 Aprire http://127.0.0.1:5173/. `db:init` è ripetibile: applica le migrazioni senza azzerare i dati locali. Per verificare:
 ```powershell
 npm run check:catalog
+node scripts/check-city-example.mjs
 npm run check:types
 npm run build
 ```
@@ -33,7 +40,7 @@ Il Site privato è identificato da `.openai/hosting.json`. Distribuire tramite i
 
 ## Modelli migliori e lavoro da altri PC
 
-La demo non è stata convertita in un modello Blender fedele. Il flusso per creare sorgenti modificabili `.blend`, opzionalmente da CAD parametrico, ed esportare GLB con ogni pezzo indipendente è stato collaudato con Blender 4.5.14 LTS: [procedura Blender](docs/BLENDER_WORKFLOW.md), [cartella modelli](models/README.md). Il controllo `npm run check:model -- modello.glb dossier.json structure-id` verifica l'abbinamento dei pezzi prima dell'importazione.
+Il [modello della bici Elops](models/elops-study-v1/MODEL.md) comprende sorgente modificabile `.blend`, GLB da circa 3,4 MB con 163.292 triangoli, schede, report e anteprima. È incorporato nel programma senza upload manuale. Il flusso per creare sorgenti modificabili, opzionalmente da CAD parametrico, ed esportare GLB con ogni pezzo indipendente è stato collaudato con Blender 4.5.14 LTS: [procedura Blender](docs/BLENDER_WORKFLOW.md), [cartella modelli](models/README.md). Il controllo `npm run check:model -- modello.glb dossier.json structure-id` verifica l'abbinamento dei pezzi prima dell'importazione.
 
 È incluso un [esempio di minuteria](models/fastener-example-v1/MODEL.md) con sorgente Blender, GLB, dossier, report e anteprima: vite con filetto esterno geometrico, rondella e dado. È un test illustrativo di tre pezzi, non un ricambio verificato; il dado ha foro liscio. Questo primo collaudo non sostituisce la revisione di modelli e procedure di una bicicletta reale.
 

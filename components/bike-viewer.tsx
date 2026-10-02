@@ -4,6 +4,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import type { Part, Structure } from '@/lib/catalog';
+import {catalogNodes} from '@/lib/glb-nodes';
 type Props={structure:Structure; selected:string|null; explode:number; isolate:boolean; group:string; reset:number; onSelect:(id:string)=>void};
 export default function BikeViewer(props:Props){
  const mount=useRef<HTMLDivElement>(null),current=useRef(props);current.current=props;
@@ -32,7 +33,11 @@ export default function BikeViewer(props:Props){
    }
   }
   function fit(target?:THREE.Object3D){const box=new THREE.Box3();if(target)box.setFromObject(target);else nodes.forEach(n=>{if(n.visible)box.union(new THREE.Box3().setFromObject(n));});if(box.isEmpty())return;const center=box.getCenter(new THREE.Vector3()),length=Math.max(box.getSize(new THREE.Vector3()).length(),.05);controls.target.copy(center);camera.position.copy(center).add(new THREE.Vector3(.45,.27,1).normalize().multiplyScalar(length*1.55));controls.update();}
-  async function init(){try{if(props.structure.assetId){const gltf=await new GLTFLoader().loadAsync(`/api/assets/${props.structure.assetId}`);if(stopped){track(gltf.scene);resources.forEach(r=>r.dispose());return;}gltf.scene.updateMatrixWorld(true);for(const p of props.structure.parts){const original=gltf.scene.getObjectByName(p.meshName!);if(!original)throw new Error(`Nodo mancante: ${p.meshName}`);const node=new THREE.Group();node.userData.partId=p.id;const copy=original.clone(true);copy.applyMatrix4(original.parent?.matrixWorld||new THREE.Matrix4());copy.traverse(o=>{if(o instanceof THREE.Mesh)o.material=Array.isArray(o.material)?o.material.map(m=>m.clone()):o.material.clone();});node.add(copy);nodes.set(p.id,node);origins.set(p.id,new THREE.Vector3());scene.add(node);track(node);}}else build();if(!stopped){fit();setLoading(false);}}catch(e){if(!stopped){setError(e instanceof Error?e.message:'Errore 3D');setLoading(false);}}}
+  async function init(){try{const url=props.structure.modelPath||(props.structure.assetId?`/api/assets/${props.structure.assetId}`:null);if(url){const gltf=await new GLTFLoader().loadAsync(url);if(stopped){track(gltf.scene);resources.forEach(r=>r.dispose());return;}gltf.scene.updateMatrixWorld(true);
+    // GLTFLoader sanitizes object names (e.g. periods). Resolve the original
+    // glTF names through node associations so catalog IDs stay unchanged.
+    const importedNodes=catalogNodes(gltf);
+    for(const p of props.structure.parts){const original=importedNodes.get(p.meshName!);if(!original)throw new Error(`Nodo mancante: ${p.meshName}`);const node=new THREE.Group();node.userData.partId=p.id;const copy=original.clone(true);copy.applyMatrix4(original.parent?.matrixWorld||new THREE.Matrix4());copy.traverse(o=>{if(o instanceof THREE.Mesh)o.material=Array.isArray(o.material)?o.material.map(m=>m.clone()):o.material.clone();});node.add(copy);nodes.set(p.id,node);origins.set(p.id,new THREE.Vector3());scene.add(node);track(node);}}else build();if(!stopped){fit();setLoading(false);}}catch(e){if(!stopped){setError(e instanceof Error?e.message:'Errore 3D');setLoading(false);}}}
   let lastReset=props.reset,lastIsolate=props.isolate,lastSelected=props.selected,lastGroup=props.group;
   const animate=()=>{if(stopped)return;frame=requestAnimationFrame(animate);const state=current.current;
    for(const p of props.structure.parts){const node=nodes.get(p.id);if(!node)continue;const chosen=state.selected===p.id;node.visible=state.isolate?chosen:(state.group==='Tutti'||state.group===p.group);node.position.copy(origins.get(p.id)!).addScaledVector(new THREE.Vector3(...p.explode),state.explode/100);node.traverse(o=>{if(o instanceof THREE.Mesh)for(const mat of Array.isArray(o.material)?o.material:[o.material])if(mat instanceof THREE.MeshStandardMaterial){mat.emissive.set(chosen?'#da6637':'#000000');mat.emissiveIntensity=chosen?.55:0;}});}

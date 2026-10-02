@@ -10,13 +10,14 @@ Aggiungere poi la modifica desiderata e le foto/manuali pertinenti. Per un'IA pr
 
 ## Avvio e orientamento
 
-Node.js 22.13 o superiore nella famiglia 22, npm e Git. `npm ci`, `npm run db:init`, `npm run dev`. Aprire http://127.0.0.1:5173/. L'emulazione D1/R2 è locale e non richiede credenziali Cloudflare. In questo PC le dipendenze sono già installate.
+Su Windows doppio clic su `Avvia-Officina.cmd`; istruzioni in `docs/AVVIO.md`. Avvio manuale: Node.js 22.13 o successivo, npm e Git; `npm ci`, `npm run db:init`, `npm run dev`. Aprire http://127.0.0.1:5173/. L'emulazione D1/R2 è locale e non richiede credenziali Cloudflare. In questo PC le dipendenze sono già installate.
 
 `npm run check:catalog`, `npm run check:types`, `npm run build` sono le verifiche di consegna. `npm run check:model -- modello.glb dossier.json structure-id` controlla i modelli esterni. `scripts/check-api.mjs` è un test manuale con server avviato e scritture nel database locale: non eseguirlo contro l'archivio reale.
 
 ## Stato da conservare
 
 - La demo è ancora procedurale e schematica: 656 elementi, interni parziali, quantità illustrative.
+- È incorporata una bici intera di riferimento: `models/elops-study-v1`, 704 parti, Blender/GLB originali basati sull'allestimento pubblico della Speed 500. Non promuoverla a distinta OEM verificata: inventario interno e minuteria sono illustrativi dove indicato, alcuni gruppi sono chiusi. `lib/built-in.ts` combina i due esempi. Dopo modifiche al modello, esportare e usare `scripts/prepare-city-example.mjs`; verificare con `scripts/check-city-example.mjs` e `check:model`. `modelPath` è riservato ai GLB incorporati.
 - Non esistono ancora sorgenti `.blend` di biciclette reali verificate. Il flusso è collaudato con Blender portabile 4.5.14 LTS su `models/fastener-example-v1`: tre pezzi illustrativi, filetto esterno geometrico e foro del dado liscio. Sono inclusi sorgente, GLB, dossier, report e anteprima; non attribuirli a un ricambio OEM. Il pacchetto Blender è locale in `.tools` e non viene versionato; si recupera con `tools/blender/get-portable.ps1`.
 - L'IA non deve inventare particolari nascosti, standard, utensili, misure o coppie di serraggio.
 - `dependsOn` descrive le rimozioni precedenti. Un telaio saldato resta un componente unico.

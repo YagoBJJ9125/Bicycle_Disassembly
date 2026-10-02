@@ -8,6 +8,8 @@ La piattaforma deve diventare una libreria di biciclette, organizzata per catego
 ## Stato reale della prima versione
 - Libreria filtrabile per categoria e marca, ricerca per nome, marca, anno e sottotipo.
 - Banco 3D Three.js, rotazione, zoom, selezione di ciascun pezzo, isolamento, filtro per gruppo e cursore esploso.
+- Bici intera Elops Speed 500 di riferimento, ricostruita in Blender: 704 elementi, sorgente modificabile, GLB incorporato da circa 3,4 MB. Allestimento da fonti Decathlon; geometria e interni non documentati restano approssimati. Ruota libera, cartuccia, interni leve ed elettronica non sono completamente scomposti. Non è una distinta OEM verificata.
+- Avvio Windows con doppio clic su `Avvia-Officina.cmd`: installazione dipendenze se mancanti, migrazioni ripetibili, browser e riuso dell'istanza locale. Guida `docs/AVVIO.md`.
 - Demo procedurale monovelocità: 656 elementi singolarmente selezionabili. È schematica, con quantità illustrative. Nessun marchio o modello commerciale viene simulato come identificato.
 - Descrizione, procedura di gruppo, utensili e misure con attendibilità, dipendenze, avvertenze e fonti per i gruppi documentati.
 - Archivio persistente D1 per strutture, biciclette e dossier; R2 per fotografie e GLB. Il Site è privato del proprietario.
@@ -34,7 +36,7 @@ Lo schema Zod autorevole è `lib/catalog.ts`; l’esempio concreto esportabile �
 Un dossier ha `{schemaVersion:1, structures:[], bikes:[]}`. Può contenere soltanto `bikes` per riutilizzare un ID esistente. Non reimportare la demo con gli stessi ID: il controllo respinge duplicati.
 
 ### Struttura
-`id`, `name`, `version`, `kind` (`didactic`, `reference`, `verified`), `standards` (almeno cinque valori documentati), `coverage`, `parts`, `procedures`, opzionale `assetId`.
+`id`, `name`, `version`, `kind` (`didactic`, `reference`, `verified`), `standards` (almeno cinque valori documentati), `coverage`, `parts`, `procedures`, opzionale `assetId`. `modelPath` è riservato ai GLB incorporati nel sorgente sotto `/models/`; l'API non lo accetta in dossier importati. Non usarlo insieme ad `assetId`.
 
 Gli standard comprendono almeno telaio, serie sterzo, movimento, pedivelle, freni, mozzi, trasmissione, ruote e pedali per le configurazioni complete. Aggiungere sigle, varianti, diametri, filettature e quantità sufficienti a distinguere strutture realmente diverse. La firma è calcolata dagli standard ordinati, senza usare la marca della bici.
 
@@ -87,4 +89,6 @@ La qualità della demo è insufficiente per riprodurre fedelmente parti reali. L
 Per qualsiasi altra IA sono disponibili `AGENTS.md`, `docs/AI_HANDOFF.md` e `docs/ARCHITECTURE.md`. Lo sviluppo locale richiede Node/npm, senza plugin Codex o account Cloudflare: `npm ci`, `npm run db:init`, `npm run dev`. `docs/PORTABILITA.md` distingue il sorgente dai dati online. `npm run backup:source` crea ZIP e bundle Git dai commit; `.github/workflows/verify.yml` verifica il codice senza distribuire. Il repository confermato è `YagoBJJ9125/Bicycle_Disassembly`, pubblico come creato dal proprietario; `origin` punta a GitHub, mentre `sites` conserva la destinazione del sito privato. La CLI è stata autenticata dal proprietario per il caricamento del sorgente.
 
 ## Verifiche
+L'esempio completo è in `models/elops-study-v1`; `scripts/prepare-city-example.mjs` sincronizza il suo dossier in `data/elops-study-v1.json` e il GLB in `public/models/`. `lib/built-in.ts` unisce questo riferimento alla demo Classica e rende entrambi disponibili senza dati persistiti. Dopo modifiche al sorgente, esportare e sincronizzare prima dei controlli. `scripts/check-city-example.mjs` verifica copie incorporate, catalogo e caricamento reale Three.js di tutti i 704 nomi, inclusi nomi che GLTFLoader modifica: il viewer usa le associazioni agli indici glTF originali.
+
 `node scripts/check-catalog.mjs` verifica demo, dipendenze, rifiuto dei duplicati e comportamento con standard mancanti. `node node_modules/typescript/bin/tsc --noEmit` controlla i tipi. La build usa il workflow Sites; schema D1 tramite Drizzle. Prima della consegna verificare la distribuzione fino allo stato succeeded; non dichiarare pubblicato sulla sola base della creazione del Site.

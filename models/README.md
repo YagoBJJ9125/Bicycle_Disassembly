@@ -1,6 +1,6 @@
 # Libreria dei sorgenti 3D
 
-È presente `fastener-example-v1`, un esempio originale di tre pezzi per collaudare il flusso. Non sono ancora presenti modelli verificati di biciclette reali. Organizzare le nuove strutture così:
+Sono presenti `elops-study-v1`, bici intera di riferimento con 704 elementi incorporata nel banco, e `fastener-example-v1`, esempio originale di tre pezzi per collaudare il flusso. Entrambi hanno sorgente Blender modificabile. Non sono ancora presenti distinte complete verificate di biciclette reali. Organizzare le nuove strutture così:
 
 ```text
 models/<structure-id>/

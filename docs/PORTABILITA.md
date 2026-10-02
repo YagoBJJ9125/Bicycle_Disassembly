@@ -20,26 +20,25 @@ Su un PC nuovo `npm ci` scarica le dipendenze: eseguirlo quando la rete lo perme
 
 ## GitHub
 
-Destinazione prevista: repository privato dedicato, scelto dal proprietario. Il remote `sites` già presente è del provider di hosting ed è separato da GitHub. Conservare entrambi: `origin` per il codice, `sites` per l'eventuale distribuzione del sito.
+Destinazione confermata: [YagoBJJ9125/Bicycle_Disassembly](https://github.com/YagoBJJ9125/Bicycle_Disassembly), pubblico come creato dal proprietario. Il remote `sites` già presente è del provider di hosting ed è separato da GitHub. Conservare entrambi: `origin` per il codice, `sites` per l'eventuale distribuzione del sito.
 
-Se la CLI GitHub non è autenticata, il proprietario può completare `gh auth login` sul proprio PC. Dopo la creazione del repository vuoto, collegare il remote effettivo e pubblicare il branch esistente. Esempio da adattare al repository confermato:
+La CLI GitHub è stata autenticata dal proprietario su questo PC. Su altri PC eseguire `gh auth login` per scrivere. Il clone pubblico è leggibile senza autenticazione. Il branch iniziale e predefinito è `codex/officina`; per modifiche future creare branch `codex/<descrizione>` o un nome coerente con il proprio flusso. Dopo un commit sul branch iniziale:
 
 ```powershell
-git remote add origin https://github.com/<account>/<repository>.git
-git push -u origin HEAD
+git push origin codex/officina
 ```
 
 Per lavorare altrove:
 
 ```powershell
-git clone https://github.com/<account>/<repository>.git
-cd <repository>
+git clone https://github.com/YagoBJJ9125/Bicycle_Disassembly.git
+cd Bicycle_Disassembly
 npm ci
 npm run db:init
 npm run dev
 ```
 
-La visibilità privata richiede accesso esplicito per una nuova IA o un nuovo collaboratore. Il workflow `.github/workflows/verify.yml` controlla database locale, catalogo, tipi e build. Non è un deployment e non richiede segreti.
+Se la visibilità del repository viene cambiata a privata, una nuova IA o un nuovo collaboratore richiederà accesso esplicito. Il workflow `.github/workflows/verify.yml` controlla database locale, catalogo, GLB di esempio, tipi e build. Non è un deployment e non richiede segreti. L'accesso al sito online è separato e resta privato.
 
 ## Cosa non viaggia con il codice
 

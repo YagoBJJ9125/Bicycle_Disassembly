@@ -1,0 +1,27 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "sourceBlend": "assembly.blend",
+  "structureId": "fastener-example-v1",
+  "units": "meters",
+  "glbBytes": 6965764,
+  "meshCount": 3,
+  "totalTrianglesBeforeExport": 94538,
+  "parts": [
+    {
+      "meshName": "example-bolt",
+      "verticesBeforeGltfSplits": 41927,
+      "triangles": 83842
+    },
+    {
+      "meshName": "example-washer",
+      "verticesBeforeGltfSplits": 3840,
+      "triangles": 7680
+    },
+    {
+      "meshName": "example-nut",
+      "verticesBeforeGltfSplits": 1508,
+      "triangles": 3016
+    }
+  ],
+  "mechanicalVerification": "Non certificata da questo script; confrontare con le fonti."
+}

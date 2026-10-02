@@ -1,6 +1,6 @@
 # Libreria dei sorgenti 3D
 
-Non sono ancora presenti modelli Blender reali. Organizzare le nuove strutture così:
+È presente `fastener-example-v1`, un esempio originale di tre pezzi per collaudare il flusso. Non sono ancora presenti modelli verificati di biciclette reali. Organizzare le nuove strutture così:
 
 ```text
 models/<structure-id>/

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "bikes": [],
+  "structures": [
+    {
+      "id": "fastener-example-v1",
+      "name": "Test Blender: vite, rondella e dado",
+      "version": 1,
+      "kind": "didactic",
+      "standards": {
+        "purpose": "export-test",
+        "brand": "none",
+        "diameter": "illustrative-6mm",
+        "pitch": "illustrative-1mm",
+        "internalThread": "not-modeled"
+      },
+      "coverage": "Tre componenti illustrativi per collaudo informatico. Nessuna attribuzione OEM, certificazione ISO o idoneita produttiva. Filetto interno del dado e tolleranze assenti. Non e una bicicletta.",
+      "parts": [
+        {
+          "id": "example-bolt",
+          "meshName": "example-bolt",
+          "name": "Vite illustrativa",
+          "group": "Minuteria di esempio",
+          "description": "Testa esagonale, gambo e filetto elicoidale esterno. Dimensioni progettate per il test, senza attribuzione a una bicicletta reale.",
+          "procedureId": "example-disassembly",
+          "dependsOn": [
+            "example-washer"
+          ],
+          "evidence": "indicative",
+          "serviceability": "serviceable",
+          "explode": [
+            -0.018,
+            0,
+            0
+          ],
+          "geometry": {
+            "kind": "cylinder",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.003,
+              0.026,
+              0
+            ],
+            "color": "#8c99a6"
+          }
+        },
+        {
+          "id": "example-washer",
+          "meshName": "example-washer",
+          "name": "Rondella illustrativa",
+          "group": "Minuteria di esempio",
+          "description": "Anello con foro passante e bordi smussati, rappresentato con una vera geometria anulare.",
+          "procedureId": "example-disassembly",
+          "dependsOn": [
+            "example-nut"
+          ],
+          "evidence": "indicative",
+          "serviceability": "serviceable",
+          "explode": [
+            0.015,
+            0.007,
+            0
+          ],
+          "geometry": {
+            "kind": "cylinder",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.003,
+              0.026,
+              0
+            ],
+            "color": "#8c99a6"
+          }
+        },
+        {
+          "id": "example-nut",
+          "meshName": "example-nut",
+          "name": "Dado illustrativo",
+          "group": "Minuteria di esempio",
+          "description": "Esagono con foro passante. Il filetto interno e le tolleranze di accoppiamento non sono modellati.",
+          "procedureId": "example-disassembly",
+          "dependsOn": [],
+          "evidence": "indicative",
+          "serviceability": "serviceable",
+          "explode": [
+            0,
+            0.018,
+            0
+          ],
+          "geometry": {
+            "kind": "cylinder",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.003,
+              0.026,
+              0
+            ],
+            "color": "#8c99a6"
+          }
+        }
+      ],
+      "procedures": [
+        {
+          "id": "example-disassembly",
+          "title": "Separazione del gruppo illustrativo",
+          "steps": [
+            "Nel banco isolare il dado, poi la rondella e infine la vite. Questa sequenza rappresenta il test e richiede verifica sul componente reale."
+          ],
+          "tools": [
+            {
+              "name": "Chiave per esagono del modello",
+              "size": "10 mm progettati per questo esempio; misurare il componente reale",
+              "certainty": "indicative"
+            }
+          ],
+          "warnings": [
+            "Modello dimostrativo senza filetto interno del dado. Non usare come manuale di una bici reale."
+          ],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

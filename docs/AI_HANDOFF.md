@@ -17,11 +17,12 @@ Node.js 22.13 o superiore nella famiglia 22, npm e Git. `npm ci`, `npm run db:in
 ## Stato da conservare
 
 - La demo è ancora procedurale e schematica: 656 elementi, interni parziali, quantità illustrative.
-- Non esistono ancora sorgenti `.blend` di biciclette reali nel repository. Il flusso Blender e il suo esportatore sono preparati; l'esportatore non è ancora collaudato dentro Blender.
+- Non esistono ancora sorgenti `.blend` di biciclette reali verificate. Il flusso è collaudato con Blender portabile 4.5.14 LTS su `models/fastener-example-v1`: tre pezzi illustrativi, filetto esterno geometrico e foro del dado liscio. Sono inclusi sorgente, GLB, dossier, report e anteprima; non attribuirli a un ricambio OEM. Il pacchetto Blender è locale in `.tools` e non viene versionato; si recupera con `tools/blender/get-portable.ps1`.
 - L'IA non deve inventare particolari nascosti, standard, utensili, misure o coppie di serraggio.
 - `dependsOn` descrive le rimozioni precedenti. Un telaio saldato resta un componente unico.
 - `.openai/hosting.json` conserva l'identità del sito esistente; non ricrearla per sviluppare localmente.
 - Un commit/push non distribuisce automaticamente l'applicazione online. Il workflow GitHub verifica il codice e non pubblica il sito.
+- Il repository GitHub confermato è `YagoBJJ9125/Bicycle_Disassembly`, pubblico come creato dal proprietario. Il remote `origin` punta a GitHub; `sites` resta il provider del sito privato.
 - Il catalogo online, gli asset R2 e i dossier caricati sono dati esterni al repository. Richiedere l'esportazione aggiornata per lavorare su una bici reale.
 
 ## Priorità consigliata

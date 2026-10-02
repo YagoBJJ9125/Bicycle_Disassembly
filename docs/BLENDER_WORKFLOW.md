@@ -40,7 +40,17 @@ npm run check:model -- models/mia-struttura-v1/web/assembly.glb models/mia-strut
 
 L'esportatore crea anche `assembly.report.json` con versione Blender, quantità di mesh, triangoli e peso. Usa `--overwrite` soltanto per sostituire intenzionalmente un'esportazione esistente; per nuove revisioni preferire una nuova versione. Se il controllo fallisce dopo l'esportazione, il GLB resta sul disco per diagnosi e non va importato come valido.
 
-**Stato di verifica:** Blender non era installato nel PC al momento della preparazione. Il codice dell'esportatore è predisposto ma non ancora provato dentro Blender; prima del primo utilizzo reale eseguire un export piccolo e controllarlo nel banco. Il controllo Node è eseguibile con le dipendenze già presenti.
+**Stato di verifica, 2 ottobre 2026:** Blender 4.5.14 LTS portabile è stato scaricato dall'archivio ufficiale e verificato tramite SHA-256. Il collaudo su `models/fastener-example-v1/source/assembly.blend` ha esportato tre mesh distinte; il controllo Node e il caricamento con Three.js GLTFLoader hanno verificato nomi, unità metriche e geometrie. Il GLB pesa circa 6,97 MB e contiene 94.538 triangoli; il report riporta i conteggi per pezzo. L'anteprima è renderizzata dal sorgente, non generata artisticamente. Il collaudo riguarda questo esempio: controllare ogni nuovo modello nel banco e sulle fonti.
+
+Su Windows è incluso `tools/blender/get-portable.ps1`: scarica la stessa versione in `.tools`, controlla l'impronta pubblicata da Blender e non esegue un'installazione di sistema. `-Direct` usa una connessione diretta senza proxy, utile sulla connessione hotspot del proprietario. Il pacchetto ZIP è circa 399 MB e non fa parte del repository. Esempio:
+
+```powershell
+pwsh -File tools/blender/get-portable.ps1 -Direct
+& '.tools/blender-4.5.14-windows-x64/blender.exe' --background models/fastener-example-v1/source/assembly.blend --python-exit-code 1 --python tools/blender/export_officina.py -- --catalog models/fastener-example-v1/catalog.json --structure fastener-example-v1 --output models/fastener-example-v1/web/assembly.glb --overwrite
+npm run check:model -- models/fastener-example-v1/web/assembly.glb models/fastener-example-v1/catalog.json fastener-example-v1
+```
+
+L'esempio non è una bicicletta: include soltanto vite, rondella e dado illustrativi, con filetto interno del dado assente. È conservato per mostrare e verificare geometrie dettagliate e indipendenti. Le descrizioni e le misure non provengono da un ricambio reale. Il budget elevato dei tre pezzi serve alla dimostrazione: prima di estenderlo a una bici intera ottimizzare la copia web e valutare il caricamento dei dettagli per componente.
 
 ## Accettazione del modello
 

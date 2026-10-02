@@ -45,6 +45,7 @@ next-env.d.ts
 /outputs/
 /work/
 /.npm-cache/
+/.tools/
 *.tsbuildinfo
 # Blender recovery copies; the original .blend may be versioned deliberately.
 *.blend1

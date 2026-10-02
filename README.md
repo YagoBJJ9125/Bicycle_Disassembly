@@ -33,9 +33,13 @@ Il Site privato è identificato da `.openai/hosting.json`. Distribuire tramite i
 
 ## Modelli migliori e lavoro da altri PC
 
-La demo non è stata convertita in un modello Blender fedele. È predisposto un flusso per creare sorgenti modificabili `.blend`, opzionalmente da CAD parametrico, ed esportare GLB con ogni pezzo indipendente: [procedura Blender](docs/BLENDER_WORKFLOW.md), [cartella modelli](models/README.md). Il controllo `npm run check:model -- modello.glb dossier.json structure-id` verifica l'abbinamento dei pezzi prima dell'importazione. L'esportatore Blender richiede ancora un primo collaudo nella sua applicazione.
+La demo non è stata convertita in un modello Blender fedele. Il flusso per creare sorgenti modificabili `.blend`, opzionalmente da CAD parametrico, ed esportare GLB con ogni pezzo indipendente è stato collaudato con Blender 4.5.14 LTS: [procedura Blender](docs/BLENDER_WORKFLOW.md), [cartella modelli](models/README.md). Il controllo `npm run check:model -- modello.glb dossier.json structure-id` verifica l'abbinamento dei pezzi prima dell'importazione.
+
+È incluso un [esempio di minuteria](models/fastener-example-v1/MODEL.md) con sorgente Blender, GLB, dossier, report e anteprima: vite con filetto esterno geometrico, rondella e dado. È un test illustrativo di tre pezzi, non un ricambio verificato; il dado ha foro liscio. Questo primo collaudo non sostituisce la revisione di modelli e procedure di una bicicletta reale.
 
 Per capire il codice: [architettura](docs/ARCHITECTURE.md). Per copiare il progetto, usare GitHub o produrre ZIP e bundle della cronologia: [portabilità](docs/PORTABILITA.md). Dopo un commit, `npm run backup:source` salva entrambi in `outputs/`. Il workflow GitHub verifica il codice, senza pubblicare automaticamente il sito. Foto, GLB e dati caricati online richiedono un backup separato.
+
+Repository del sorgente: [YagoBJJ9125/Bicycle_Disassembly](https://github.com/YagoBJJ9125/Bicycle_Disassembly), pubblico come creato dal proprietario. Il sito e il relativo archivio hanno accesso separato dal repository.
 
 ## Fonti della demo
 Le fonti generali sono collegate alle schede con il loro ambito: [pedali](https://www.parktool.com/en-us/blog/repair-help/pedal-installation-and-removal), [pedivelle](https://www.parktool.com/en-us/blog/repair-help/crank-removal-and-installation-three-piece), [mozzi](https://www.parktool.com/en-us/blog/repair-help/hub-overhaul-and-adjustment), [serie sterzo](https://www.parktool.com/en-us/blog/repair-help/threaded-headset-service), [movimento centrale regolabile](https://www.parktool.com/en-us/blog/repair-help/bottom-bracket-service-adjustable-cup-and-cone). Non identificano i pezzi della demo come un modello reale e non certificano misure o quantità.

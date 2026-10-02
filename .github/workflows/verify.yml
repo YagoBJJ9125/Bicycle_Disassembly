@@ -16,5 +16,6 @@ jobs:
       - run: npm ci
       - run: npm run db:init
       - run: npm run check:catalog
+      - run: npm run check:model -- models/fastener-example-v1/web/assembly.glb models/fastener-example-v1/catalog.json fastener-example-v1
       - run: npm run check:types
       - run: npm run build

@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {writeFileSync} from 'node:fs';
+const base='http://127.0.0.1:5173',prefix=`qa-${Date.now()}`;
+async function call(path,options){const r=await fetch(base+path,options);return {status:r.status,body:await r.json()};}
+const initial=await call('/api/catalog');assert.equal(initial.status,200);assert.equal(initial.body.structures[0].parts.length,656);
+const structure=structuredClone(initial.body.structures[0]);structure.id=prefix;structure.name='TEST LOCALE · geometria';structure.kind='reference';structure.standards={frame:prefix,headset:'test',bottomBracket:'test',brakes:'test',drivetrain:'test'};structure.parts=[{...structure.parts[0],id:'test-part',name:'Elemento di verifica',procedureId:structure.procedures[0].id,dependsOn:[],geometry:{kind:'ball',position:[0,1,0],size:[.05,0,0],color:'#77b9ad'},explode:[0,.3,0]}];structure.procedures=structure.procedures.slice(0,1);
+const bike={...initial.body.bikes[0],id:prefix,name:'TEST LOCALE · bici 1',structureId:prefix,status:'reference'};
+const headers={'Content-Type':'application/json'};
+let r=await call('/api/catalog',{method:'POST',headers,body:JSON.stringify({schemaVersion:1,structures:[structure],bikes:[bike]})});assert.equal(r.status,200);
+r=await call('/api/catalog',{method:'POST',headers,body:JSON.stringify({schemaVersion:1,structures:[],bikes:[{...bike,id:prefix+'-alias',name:'TEST LOCALE · bici 2'}]})});assert.equal(r.status,200);
+r=await call('/api/catalog');assert.equal(r.body.structures.filter(s=>s.id===prefix).length,1);assert.equal(r.body.bikes.filter(b=>b.structureId===prefix).length,2);
+r=await call('/api/catalog',{method:'POST',headers,body:JSON.stringify({schemaVersion:1,structures:[structure],bikes:[]})});assert.equal(r.status,400);
+r=await call('/api/catalog',{method:'POST',headers,body:'{invalid'});assert.equal(r.status,400);
+const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aX2sAAAAASUVORK5CYII=','base64');
+r=await call('/api/assets',{method:'POST',headers:{'Content-Type':'image/png'},body:png});assert.equal(r.status,200);const photo=r.body.id;
+r=await call('/api/intakes',{method:'POST',headers,body:JSON.stringify({name:'TEST LOCALE · foto',notes:prefix,photoIds:[photo]})});assert.equal(r.status,200);const intake=r.body.id;
+r=await call('/api/intakes');assert(r.body.some(i=>i.id===intake));const photoRes=await fetch(base+'/api/assets/'+photo);assert.equal(photoRes.status,200);assert.equal((await photoRes.arrayBuffer()).byteLength,png.length);
+r=await call('/api/assets',{method:'POST',headers:{'Content-Type':'model/gltf-binary'},body:'not a glb'});assert.equal(r.status,400);
+writeFileSync('.sites-runtime/api-qa.json',JSON.stringify({prefix,photo,intake}));
+console.log('API verified: catalog, persistence, shared structure, duplicate rejection, invalid JSON, photo storage, intake and invalid GLB.');

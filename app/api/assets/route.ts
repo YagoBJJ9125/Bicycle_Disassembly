@@ -1,0 +1,6 @@
+import { assets, failure, sameOrigin } from '@/lib/storage';
+import { validateGlb } from '@/lib/glb';
+export async function POST(req:Request){if(!sameOrigin(req))return Response.json({error:'Origine non consentita'},{status:403});try{const body=await req.arrayBuffer();if(body.byteLength>25_000_000)return Response.json({error:'File troppo grande: massimo 25 MB'},{status:413});const type=req.headers.get('content-type')||'',head=new Uint8Array(body);let ext:string,names:string[]=[];
+ if(type==='model/gltf-binary'){try{names=validateGlb(body);}catch(e){return Response.json({error:e instanceof Error?e.message:'GLB non valido'},{status:400});}ext='glb';}
+ else if(type==='image/jpeg'&&head[0]===255&&head[1]===216)ext='jpg';else if(type==='image/png'&&head[0]===137&&head[1]===80&&head[2]===78&&head[3]===71)ext='png';else if(type==='image/webp'&&new TextDecoder().decode(head.slice(0,4))==='RIFF'&&new TextDecoder().decode(head.slice(8,12))==='WEBP')ext='webp';else return Response.json({error:'Carica una foto JPG, PNG, WebP o un GLB incorporato.'},{status:400});
+ const id=`${crypto.randomUUID()}.${ext}`;await assets().put(id,body,{httpMetadata:{contentType:type}});return Response.json({id,url:`/api/assets/${id}`,meshNames:names});}catch(e){return failure(e);}}

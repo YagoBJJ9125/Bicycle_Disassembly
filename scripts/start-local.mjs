@@ -16,13 +16,19 @@ async function isOfficina(){
 }
 function browser(){
  if(noBrowser)return;
- const command=process.platform==='win32'?['cmd.exe',['/d','/c','start','',url]]:
-   process.platform==='darwin'?['open',[url]]:['xdg-open',[url]];
- const result=spawn(command[0],command[1],{stdio:'ignore',windowsHide:true});
- result.on('error',()=>console.log('Apri nel browser: '+url));result.unref();
+ // Wait for Windows to dispatch the URL before this process can exit.
+ // This command is fixed; it contains no user-provided shell arguments.
+ if(process.platform==='win32'){
+  const result=spawnSync(process.env.ComSpec||'cmd.exe',['/d','/s','/c',`start "" "${url}"`],{stdio:'inherit',windowsHide:true,windowsVerbatimArguments:true,timeout:10000});
+  if(result.error||result.status!==0)console.log('Apertura automatica non riuscita. Apri nel browser: '+url);
+  return;
+ }
+ const command=process.platform==='darwin'?['open',[url]]:['xdg-open',[url]];
+ const result=spawn(command[0],command[1],{stdio:'inherit'});
+ result.on('error',()=>console.log('Apri nel browser: '+url));
 }
 if(await isOfficina()){
- console.log('Officina è già avviata: '+url);browser();
+ console.log('Officina è già avviata: '+url);console.log('Uso il server esistente; non occorre aprirne un altro.');browser();
 }else{
 if(!existsSync('node_modules/vinext/dist/cli.js')){
  console.log('Prima configurazione: download delle dipendenze con npm ci.');

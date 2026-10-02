@@ -8,6 +8,8 @@
 
 Non servono importazioni o Blender per usare l'esempio: la bici intera **Elops Speed 500 · esempio 3D** è incorporata e si apre automaticamente. Se l'applicazione è già in esecuzione, l'avvio riutilizza quella stessa istanza. Il database viene preparato senza cancellare i tuoi dati.
 
+Se il programma è già avviato, la finestra mostra l'indirizzo e rimane aperta fino alla pressione di un tasto: puoi chiudere quella finestra senza fermare il server originale. Se il browser non si apre automaticamente, copia http://127.0.0.1:5173/ nella sua barra degli indirizzi. La finestra resta aperta anche in caso di errore, così il messaggio è leggibile.
+
 Su un nuovo PC occorre prima installare Node.js 22.13 o successivo e scaricare/clonare il repository. L'avvio installa le dipendenze mancanti con `npm ci`, perciò la prima configurazione richiede Internet. Su questo PC sono già disponibili. Blender serve per modificare il sorgente 3D, non per ruotare e scomporre la bici nell'applicazione.
 
 ## Prova guidata

@@ -10,6 +10,7 @@ La piattaforma deve diventare una libreria di biciclette, organizzata per catego
 - Banco 3D Three.js, rotazione, zoom, selezione di ciascun pezzo, isolamento, filtro per gruppo e cursore esploso.
 - Bici intera Elops Speed 500 di riferimento, ricostruita in Blender: 704 elementi, sorgente modificabile, GLB incorporato da circa 3,4 MB. Allestimento da fonti Decathlon; geometria e interni non documentati restano approssimati. Ruota libera, cartuccia, interni leve ed elettronica non sono completamente scomposti. Non è una distinta OEM verificata.
 - Avvio Windows con doppio clic su `Avvia-Officina.cmd`: installazione dipendenze se mancanti, migrazioni ripetibili, browser e riuso dell'istanza locale. Guida `docs/AVVIO.md`.
+- Il launcher Windows attende l'apertura del browser e mantiene visibile il risultato anche se il server esiste già o si verifica un errore. Se il PATH di Explorer non include Node, cerca anche l'installazione standard in Program Files.
 - Demo procedurale monovelocità: 656 elementi singolarmente selezionabili. È schematica, con quantità illustrative. Nessun marchio o modello commerciale viene simulato come identificato.
 - Descrizione, procedura di gruppo, utensili e misure con attendibilità, dipendenze, avvertenze e fonti per i gruppi documentati.
 - Archivio persistente D1 per strutture, biciclette e dossier; R2 per fotografie e GLB. Il Site è privato del proprietario.

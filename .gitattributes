@@ -1,0 +1,2 @@
+# Windows launchers need CRLF even after clones configured with autocrlf=false.
+*.cmd text eol=crlf
